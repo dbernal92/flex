@@ -1,5 +1,7 @@
 .container {  
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
  }
  
 .boxes {
@@ -41,3 +43,18 @@
 #box8 {
     background-color: lightgrey;
 }
+
+.card-body {
+    border: 1px solid black;
+    width: 300px;
+ }
+ 
+.img-container img {
+    max-width: 50%;
+    height: auto;
+}
+ 
+ .card-body p, .card-body h1 {
+    margin: 8px;
+}
+ 
